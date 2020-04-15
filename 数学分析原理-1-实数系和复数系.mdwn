@@ -8,7 +8,7 @@
 ​	假设S是一个有序集，并且E $\subset$ S. 如果存在一个$\beta$ $\in$ S，对任意x $\in$ E都有x $\leq$ $\beta$ 成立，我们就说E有上界，并且$\beta$ 是其中的一个上界。
 
 ## 1.8 Definiton 上确界的定义
-​	Suppose S is an ordered set, ***E*** $\sub$ ***S***, and ***E*** is bounded above. Suppose there exists an $\alpha$ $\in$ S with the following properties:
+​	Suppose S is an ordered set, ***E*** $\subset$ ***S***, and ***E*** is bounded above. Suppose there exists an $\alpha$ $\in$ S with the following properties:
 ​	(i)  $\alpha$ is an upper bound of ***E***.
 ​	(ii) If $\gamma$  < $\alpha$ then $\gamma $ is not an upper bound of ***E***.
 ​	Then $\alpha$ is called the *least upper bound of* ***E*** or the *supremum of* ***E***, and we write
