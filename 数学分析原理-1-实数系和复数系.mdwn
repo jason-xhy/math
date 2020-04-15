@@ -21,7 +21,7 @@ $\alpha$ 成为上确界的条件：
 
 Proof:
 
-Suppose $\exist$ $a_1$,$a_2$ $\in$ ***S*** , and $a_1$ < $a_2$, they are both the *least upper bound of* ***E***. According to 2. $a_1$ shoudn't be a *upper bound of* ***E***. So there's no more than 1 *least upper bound of* ***E***.
+Suppose $\exists$ $a_1$,$a_2$ $\in$ ***S*** , and $a_1$ < $a_2$, they are both the *least upper bound of* ***E***. According to 2. $a_1$ shoudn't be a *upper bound of* ***E***. So there's no more than 1 *least upper bound of* ***E***.
 
 ## 1.10 Definiton 如何判定一个有序集有上确界属性 
 ***Every*** subset E ⊂ S which is nonempty
