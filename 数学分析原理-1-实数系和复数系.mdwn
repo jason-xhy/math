@@ -134,8 +134,9 @@ Proof of c:
 
 Proof of d:
 
-   $\because$  1/x * x = 1
-   $\therefore$  x = 1/(1/x)
+   because  1/x * x = 1
+
+   therefore x = 1/(1/x)
 
 ## 1.16 Proposition 域公理得到的推论 
    *for any x, y,z* $\in$ ***F***.
