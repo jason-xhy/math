@@ -28,7 +28,7 @@ Suppose $\exists$ $a_1$,$a_2$ $\in$ ***S*** , and $a_1$ < $a_2$, they are both t
 and bounded above has a supremum sup E in S. Then S is said to have the *least-upper-bound property*.
 Every ordered set with the *least-upper-bound property* also has the *greatest-lower-bound property*.
 
-## 1.11 Theorem 
+## 1.11 
 ## 1.11 Theorem 
 有上确界属性的有序集其子集的上确界与下确界相等 
 *Suppose* ***S*** *is an ordered set with the *least-upper-bound property*, B $\subset$ S, B is not empty, and B is bounded below. Let ***L*** be the set of all lower bounds of B. Then*
