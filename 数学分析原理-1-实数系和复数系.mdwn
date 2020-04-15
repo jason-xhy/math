@@ -98,9 +98,9 @@ Proof of b:
 
 Proof of d:
         
-$\because$  -x + x = 0 
+   because -x + x = 0 
 
-$\therefore$ x = -(-x)
+   according to (c), you get x = -(-x)
 
 Proof of e:
 
