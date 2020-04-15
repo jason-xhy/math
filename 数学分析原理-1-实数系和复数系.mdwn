@@ -1,0 +1,194 @@
+## 1.6 Definition 有序集的定义
+​	An orderd set is a set S in which an order is defined.
+有序集就是定义了一种序的集合。
+如，Q就是用r < s来表示s - r 是正有理数的有序集。
+
+## 1.7 Definition 上界的定义
+​	Suppose S is an ordered set, and E $\subset$ S . If there exists a $\beta$ $\in$ S such that x $\leq$ $\beta$ for every x $\in$ E, we say that E is bounded above, and call $\beta$ an upper bound of E.
+​	假设S是一个有序集，并且E $\subset$ S. 如果存在一个$\beta$ $\in$ S，对任意x $\in$ E都有x $\leq$ $\beta$ 成立，我们就说E有上界，并且$\beta$ 是其中的一个上界。
+
+## 1.8 Definiton 上确界的定义
+​	Suppose S is an ordered set, ***E*** $\sub$ ***S***, and ***E*** is bounded above. Suppose there exists an $\alpha$ $\in$ S with the following properties:
+​	(i)  $\alpha$ is an upper bound of ***E***.
+​	(ii) If $\gamma$  < $\alpha$ then $\gamma $ is not an upper bound of ***E***.
+​	Then $\alpha$ is called the *least upper bound of* ***E*** or the *supremum of* ***E***, and we write
+​			$\alpha$ = sup ***E***
+​	The *greatest lower bound*, or *infimum* is
+​			$\alpha$ = inf ***E*** 
+$\alpha$ 成为上确界的条件：
+1. $\alpha$ 是 ***E***的一个上界；
+2. 如果 $\gamma$  < $\alpha$成立，那么$\gamma$就不是***E***的上界
+
+Proof:
+
+Suppose $\exist$ $a_1$,$a_2$ $\in$ ***S*** , and $a_1$ < $a_2$, they are both the *least upper bound of* ***E***. According to 2. $a_1$ shoudn't be a *upper bound of* ***E***. So there's no more than 1 *least upper bound of* ***E***.
+
+## 1.10 Definiton 如何判定一个有序集有上确界属性 
+***Every*** subset E ⊂ S which is nonempty
+and bounded above has a supremum sup E in S. Then S is said to have the *least-upper-bound property*.
+Every ordered set with the *least-upper-bound property* also has the *greatest-lower-bound property*.
+
+## 1.11 Theorem 有上确界属性的有序集其子集的上确界与下确界相等 
+*Suppose* ***S*** *is an ordered set with the *least-upper-bound property*, B $\subset$ S, B is not empty, and B is bounded below. Let ***L*** be the set of all lower bounds of B. Then*
+                $\alpha$ = sup ***L***
+*exist in* ***S***, *and* $\alpha$ = inf ***B***. *In particular*, inf ***B*** *exists in* ***S***.
+**Proof**:
+Since ***B*** is bounded below, ***L*** is not empty. Since ***L*** consists of exactly those *y* $\in$ ***S*** which satisfy the inequality *y* $\leq$ *x* for every *x* $\in$ ***B***, we see that *every x* $\in$ ***B*** *is an upper bound of* ***L***. Thus ***L*** is bounded above. Our hypothesis about ***S*** implies therefore that ***L*** has a supremum in ***S***; call it $\alpha$.
+If $\alpha$ were not a lower bound of ***B***, there would be some *x* $\in$ ***B*** satisfying *x* < $\alpha$. This *x* would be an upper bound of ***L*** (by the preceding paragraph), contradicting our assumption that $\alpha$ is the least upper bound of ***L***. So $\alpha$ is a lower bound of ***B***. Now if *y* is any lower bound of ***B***, then *y* $\in$ L, so *y* $\leq$ sup ***L*** = $\alpha$; this shows that $\alpha$ is the *greatest* lower bound of ***B***.
+
+## 1.12 Definition 域的定义 
+A *field* is a set ***F*** with two operations, called *addtion* and *multiplication*, which satisfy the following so-called "field axioms"(A),(M),(D):
+
+(A) **Axioms for addiction**
+
+   (A1) If x $\in$ ***F*** and y $\in$ ***F***, then their sum x + y is in ***F***. 元素的和仍在***F***中。
+
+   (A2) Addicion is commutative(交换): x + y = y + x for all x, y $\in$ ***F***. 加法满足交换律。
+
+   (A3) Addicion is associative(结合): (x + y) + z = x + (y + z) for all x, y , z $\in$ ***F***. 加法满足结合率。
+
+   (A4) ***F*** contains an element 0 such that 0 + x = x for every x $\in$ ***F***. ***F***中有0元素, 任何元素与0元素相加等于它自己。
+
+   (A5) To every x $\in$ ***F*** corresponds an element -x $\in$ ***F*** such that 
+
+       x + (-x) = 0. 
+
+   每一个元素都有它的相反数，使得和为0元素.
+
+ (M) **Axioms for multiplication**
+
+   (M1) If x $\in$ ***F*** and y $\in$ ***F***, then their product xy is in ***F***. 元素的积仍在***F***中。
+
+   (M2) Multiplication is commutative(交换): xy = yx for all x, y $\in$ ***F***. 乘法满足交换律。
+
+   (M3) Multiplication is associative(结合): (x*y)*z = x*(y*z) for all x, y , z $\in$ ***F***. 乘法满足结合率。
+
+   (M4) ***F*** contains an element 1 $\neq$ 0, such that 1x = x for every x $\in$ ***F***. ***F***中有1元素, 任何元素与1元素相乘等于它自己。
+
+   (M5) If x $\in$ ***F*** and x $\neq$ 0 then there exists an element 1/x $\in$ ***F*** such that 
+
+        x (1/x) = 1. 
+每一个非0元素都有它的倒数，使得积为1元素.  
+
+   (D) **The distributive law**
+
+        x(y + z) = xy + xz
+
+holds for all x, y, z $\in$ ***F***.
+
+
+## 1.14 Proposition 加法公理得到的推论 
+    (a) If x + y = x + z then y = z.
+    (b) If x + y = x then y = 0.
+    (c) If x + y = 0 then y = -x.
+    (d) -(-x) = x.
+    (e) -(x+y) = (-x) + (-y)
+Proof of a:
+
+    y =  -x + (x + y) = -x + (x + z) = (-x + x) + z
+      = 0 + z = z
+Proof of c:
+
+    y =  -x + (x + y) = -x + 0 = -x 
+
+Proof of b:
+
+    y =  -x + (x + y) = -x + x = 0 
+
+Proof of d:
+        
+$\because$  -x + x = 0 
+
+$\therefore$ x = -(-x)
+
+Proof of e:
+
+   -y = (x - x) + (-y) = x - (x + y) 
+   -x = (y - y) + (-x) = y - (y + x) 
+   (-x) + (-y) = x - (x + y) + y - (y + x)
+               = x + y - (x + y) - (x + y)
+               = - (x + y)
+
+## 1.15 Proposition 乘法公理得到的推论 
+
+   (a) If x $\neq$ 0 and xy = xz, then y = z.
+
+   (b) If x $\neq$ 0 and xy = x, then y = 1.
+
+   (c) If x $\neq$ 0 and xy = 1, then y = 1/x.
+
+   (d) If x $\neq$ 0 then 1/(1/x) = x.
+
+Proof of a:
+
+   y = 1/x * xy = 1/x * xz = (1/x * x) z = z
+
+Proof of b:
+
+   y = 1/x * xy = 1/x * x = 1
+
+Proof of c:
+
+   y = 1/x * xy = 1/x * 1 = 1/x
+
+Proof of d:
+
+   $\because$  1/x * x = 1
+   $\therefore$  x = 1/(1/x)
+
+## 1.16 Proposition 域公理得到的推论 
+   *for any x, y,z* $\in$ ***F***.
+
+   (a) 0x = 0.
+
+   (b) If x $\neq$ 0 and y $\neq$ 0 then xy $\neq$ 0.
+
+   (c) (-x)y = -(xy) = x(-y)
+
+   (d) (-x)(-y) = xy.
+
+Proof of a:
+
+    0x + 0x = (0 + 0)x = 0x. Hence 1.14(b)(x + y = x, then y = 0) implies that 0x = 0, and (a) holds.
+
+Proof of b:
+
+   assume x $\neq$ 0, y $\neq$ 0, and xy = 0. 
+
+   so, 1 = ($\frac{1}{x}$)($\frac{1}{y}$)xy=($\frac{1}{x}$)($\frac{1}{y}$)0=0, a contradiction. Thus (b) holds.
+
+Proof of c:
+
+   first equality,
+   (-x)y = (0 - x)y = 0y - xy = -xy = -(xy)
+
+   or
+
+   (-x)y + xy = (-x + x)y = 0y = 0, gives (-x)y = -(xy)
+
+   second equality,
+
+   x(-y) + xy = x(-y + y) = x0 = 0, gives x(-y) = -(xy)
+   
+   above all, you get x(-y) = -(xy) = x(-y)
+   
+## 1.16 Definition 有序域有序集 
+   Ordered set: 
+   
+      An orderd set is a set S in which an order is defined.
+
+   Field:
+      
+      A field is a set F with two operations, called addtion and multiplication, which satisfy the  "field axioms"(A),(M),(D).
+
+
+   Order field:
+
+      An ordered field is a field F which is also an ordered set, such that
+
+   (i) x + y < x + z if x, y, z $\in$ ***F*** and y < z,
+
+   (ii) xy > 0 if x $\in$ ***F***, x $\in$ ***F***, x > 0, and y > 0.
+
+   If x > 0, we call x *positive*; if x < 0, x is negative.
+
