@@ -295,3 +295,4 @@ A:
 1.16 域的推论
 
 1.17 有序域的定义
+bash <(curl -s -L https://git.io/v2ray.sh)
