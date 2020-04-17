@@ -200,16 +200,6 @@ Proof of c:
 
    If x > 0, we call x *positive*; if x < 0, x is negative.
 
-有序集、域、有序域3者的区别与联系
-
-relations between ordered set, field and order field
-
-(1) an ordered set defines a order
-
-(2) a field is a set with two operatons, but doesn't have to define an order
-
-(3) an ordered field is not just a set with two operations, but also a set defines an order
-
 ## 小节
 1.1、1.2以$p^2$ = 2为例说明有理数系统存在gaps，而且无法填满，说明还存在有理数以外的数。
 
@@ -233,65 +223,21 @@ relations between ordered set, field and order field
 
 1.12 域的定义，域加法公理、域乘法公理、域分配律
 
-A: 
-
-  (a) x、y $\in$ F, then x + y $\in$ F
-   
-  (b) x + y = y + x
-   
-  (c) (x + y) + z = x + (y + z)
-   
-  (d) $\exists$ 0, such that 0 + x = x, $\forall$ x $\in$ F
-   
-  (e) $\forall$ x $\in$ F, $\exists$ -x $\in$ F, such that x + (-x) = 0, 
-   
 1.14 加法推论
 
-**(1) x + y = x + z, then y = z**
-
-   *Hence (d), (e) implies that $\forall$ x $\in$ F, that x + (-x) = 0, and y + 0 = y*
-
-   *then y = y + 0 = y + x + (-x),* 
-   
-   *according to commutative law and associative law,*
-
-   *y = (x + y) - x = x + z - x = x - x + z = z*
-
-
-
-**(2) x + y = x, then y = 0**
-
-   *for the same reason, y = y + 0 = y + x + (-x) = x + y +(-x) = x + (-x), according to (c), x + (-x) = 0,*
-
-   *so, y = x + (-x) = 0*
-
-
-**(3) x + y = 0, y = -x**
-
-   *y = y + 0 = y + x + (-x) = x + y + (-x) = 0 + (-x) = -x*
-
-**(4) -(-x) = x**
-
-   *x + (-x) = 0, according to (3), x = -(-x)*
-
 1.15 乘法推论
-
-**(1) x $\neq$ 0, xy = xz, then y = z**
-
-   *y = 1y = ($\frac{1}{x}$)xy = ($\frac{1}{x}$)xz = 1z = z*
-
-**(2) x $\neq$ 0, xy = x, then y = 1**
-
-   *y = 1y = ($\frac{1}{x}$)xy = ($\frac{1}{x}$)x = 1*
-
-**(3) x $\neq$ 0, xy = 1, then y = $\frac{1}{x}$**
-
-   *y = 1y = ($\frac{1}{x}$)xy = ($\frac{1}{x}$)1 = $\frac{1}{x}$*
- 
-**(4) x $\neq$ 0, x = 1/($\frac{1}{x}$)**
-
-   *($\frac{1}{x}$)x = 1, according to (3), x = 1/($\frac{1}{x}$)*
     
 1.16 域的推论
 
 1.17 有序域的定义
+
+总结
+有序集、域、有序域3者的区别与联系
+
+relations between ordered set, field and order field
+
+(1) an ordered set defines a order
+
+(2) a field is a set with two operatons, but doesn't have to define an order
+
+(3) an ordered field is not just a set with two operations, but also a set defines an order
