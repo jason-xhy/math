@@ -180,7 +180,7 @@ Proof of c:
    
    above all, you get x(-y) = -(xy) = x(-y)
    
-## 1.16 Definition 有序域有序集 
+## 1.16 Definition 有序域 
    Ordered set: 
    
       An orderd set is a set S in which an order is defined.
@@ -295,4 +295,3 @@ A:
 1.16 域的推论
 
 1.17 有序域的定义
-bash <(curl -s -L https://git.io/v2ray.sh)
